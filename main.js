@@ -13,9 +13,6 @@ function changeLights() {
     setTimeout(() => {
         greenLight()
     }, 2800)
-    setTimeout(() => {
-        yellowLight()
-    }, 4800)
 }
 
 function redLight() {
@@ -45,4 +42,4 @@ function greenLight() {
     }, 2000)
 }
 
-setInterval(changeLights, 5600)
+setInterval(changeLights, 4800)
